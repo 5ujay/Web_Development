@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  margin-top: 20px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid grey;
+  padding-bottom: 20px;
+}
+
+.home h2 {
+  text-align: start;
+  margin-left: 20px;
+  margin-top: 10px;
+  color: blue;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* footer design */
+.row {
+  margin-top: 20px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.foot_col ul {
+  list-style-type: none;
+  width: 90%;
+  /* margin-left: 5px; */
+}
+.foot_col h4 {
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-bottom: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.foot_col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.foot_col ul li a {
+  font-size: 20px;
+  text-transform: lowercase;
+  color: gray;
+  text-decoration: none;
+  font-weight: 300;
+}
+/* making footer responsive */
+
+@media screen and (max-width: 900px) {
+  .row {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 1rem;
+  }
+}

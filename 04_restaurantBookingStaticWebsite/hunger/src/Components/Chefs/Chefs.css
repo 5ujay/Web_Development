@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* css for chefs display */
+.chef {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 4rem;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/* css for animation Chefs.js */
+
+.chefs {
+  margin-top: 100px;
+  height: 350px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px black;
+  transition: 0.3s;
+  padding: 30px 50px;
+  background: #eeeeee;
+  cursor: pointer;
+}
+.chefs:hover {
+  height: 500px;
+}
+.chef-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.chef-info {
+  padding: 10px 20px;
+  transform: translateY(-80px);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.chefs:hover > .chef-info {
+  opacity: 1;
+}
+
+/* css for text in Chfes.js */
+.chefs-heading {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: rgb(89, 85, 85);
+  margin-top: 40px;
+}
+.chefs-subheading {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.chef-name {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.chef-profession {
+  font-family: cursive;
+  font-size: 15px;
+  color: gray;
+}
+
+.chef-msg p {
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* css for tabs and small laptops */
+
+@media screen and (max-width: 1200px) {
+  .chef-img img {
+    height: 300px;
+  }
+  .chef-info {
+    padding: 10px 20px;
+    transform: translateY(-130px);
+    opacity: 0;
+    transition: 0.3s;
+  }
+}
+
+/* css for small laptops and imini, ipad etc */
+
+@media screen and (max-width: 920px) {
+  .chef {
+    margin-top: -50px;
+    gap: 10px;
+  }
+
+  .chef-img img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .chefs {
+    height: 250px;
+    padding: 20px;
+  }
+
+  .chefs:hover {
+    height: 380px;
+  }
+
+  .chef-msg p {
+    display: none;
+  }
+}
+
+/* css for smart phones  */
+
+@media screen and (max-width: 550px) {
+  .chef {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .chef-msg p {
+    display: contents;
+  }
+}

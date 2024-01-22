@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cover {
+  height: 140px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  /* background-color: grey; */
+}
+
+.card-items {
+  margin-top: 9px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-color: lightgray; */
+  margin-right: 50px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  height: 120px;
+  /* width: 120px; */
+}
+
+.card p {
+  text-align: center;
+  font-weight: 600;
+}
+
+.icon {
+  display: none;
+}
+
+/* making it responsive */
+
+@media screen and (max-width: 900px) {
+  .body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #f7f7f7;
+    /* border: 2px solid red; */
+  }
+
+  .cover {
+    position: relative;
+    width: 90%;
+    /* height: 50%; */
+  }
+
+  .card-items {
+    width: 94%;
+    height: auto;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    overflow: auto;
+    position: relative;
+    scroll-behavior: smooth;
+    margin-left: 10px;
+    /* margin-right: 10px; */
+  }
+
+  .card-items::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+
+  .card {
+    margin: 1px 10px;
+    cursor: pointer;
+    font-size: 10px;
+    /* border: 1px solid black; */
+  }
+
+  .icon {
+    display: flex;
+    height: 140px;
+  }
+
+  #btn {
+    background: none;
+    border: none;
+    border: 1px dotted black;
+  }
+}

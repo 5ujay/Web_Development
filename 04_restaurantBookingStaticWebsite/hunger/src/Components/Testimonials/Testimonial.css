@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.test-heading {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: rgb(89, 85, 85);
+  margin-top: 100px;
+}
+.test-subheading {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+/* slide 1 */
+.slide1 {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  background: #eeeeee;
+  height: 300px;
+  width: 100%;
+}
+
+.quote-icon {
+  color: red;
+}
+.msg-name {
+  font-family: cursive;
+  padding-top: 10px;
+}
+
+.msg-rating {
+  padding-top: 10px;
+  font-size: 2rem;
+  color: #e8bd0d;
+}
+
+.message-right {
+  height: 200px;
+  border: 5px solid black;
+  border-radius: 50%;
+}
+
+.message-right img {
+  border-radius: 50%;
+}
+
+/* swiper from swiperweb ggeting start wuth swiper */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* css for small tabs like ipad , imini etc */
+
+@media screen and (max-width: 850px) {
+  .slide1 {
+    width: 95%;
+    border-radius: 20px;
+  }
+
+  .meassage p {
+    font-size: 15px;
+    padding-left: 20px;
+  }
+
+  .msg-rating {
+    font-size: 25px;
+  }
+
+  .message-right {
+    margin-right: 20px;
+  }
+}
+
+/* css for smart phones */
+
+@media screen and (max-width: 450px) {
+  .slide1 {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    border-radius: 0;
+    height: 300px;
+  }
+
+  .message-right {
+    height: 100px;
+    border: 2px solid;
+  }
+
+  .meassage p {
+    font-size: 10px;
+  }
+  .msg-rating h3 {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .meassage p {
+    font-size: 10px;
+    padding-right: 20px;
+  }
+}

@@ -1,0 +1,145 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+/*========= card styling self====================== */
+/* card headingsection heading */
+.storie-head {
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #5c7189;
+  padding-left: 100px;
+}
+/* card subheading  */
+.storie-subhead {
+  display: flex;
+  gap: 1rem;
+  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  padding: 20px;
+}
+.storie-subhead .s-one {
+  padding-left: 80px;
+  color: #000;
+}
+
+.storie-subhead .s-two {
+  color: #0487f3;
+}
+.blank-subhead {
+  height: 15px;
+  width: 368px;
+  background: #c3e2fc;
+  margin-left: 260px;
+  margin-top: -40px;
+}
+
+/* card and card msg css */
+.card {
+  height: 300px;
+  width: 350px;
+  background-color: #012d50;
+  color: white;
+  /* border-top-left-radius: 20px;
+  border-top-right-radius: 20px; */
+}
+.card-msg {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* card-person -information details */
+
+.card-person-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 70px;
+  height: 55px;
+  background-color: white;
+  color: #000;
+  /* border: 1px solid black; */
+  /* border-bottom-left-radius: 20px; */
+  /* border-bottom-right-radius: 20px; */
+}
+
+.person-img img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.person-info {
+  display: flex;
+  gap: 1rem;
+}
+
+.person-name {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.person-study {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* stories btn editing */
+.more-stories-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.more-stories-btn button {
+  height: 60px;
+  width: 300px;
+  background-color: white;
+  color: #0487f3;
+  font-size: 1rem;
+  border: 1px solid #0487f3;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.more-stories-btn button:hover {
+  background-color: #0487f3;
+  color: white;
+}

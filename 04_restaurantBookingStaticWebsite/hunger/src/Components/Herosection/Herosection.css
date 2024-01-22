@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero-sec {
+  background: #eeeeee;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2rem;
+}
+
+.hero-head h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 4rem;
+}
+
+.hero-para {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(89, 85, 85);
+}
+
+.hero-btns {
+  display: flex;
+  gap: 3rem;
+  margin-top: 30px;
+}
+.hero-btns .btn1 {
+  height: 50px;
+  width: 200px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 20px;
+  background: #f10e0e;
+  color: white;
+  border: none;
+}
+.hero-btns .btn1:hover {
+  background: #f14949;
+}
+
+/* hero image  */
+.hero-right img {
+  height: 450px;
+  width: 450px;
+}
+
+/* css for tabs and samll laptops */
+@media screen and (max-width: 1200px) {
+  .hero-right img {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+/* css for nested hub  */
+
+@media screen and (max-width: 1030px) {
+  .hero-right img {
+    height: 350px;
+    width: 380px;
+    padding-right: 50px;
+  }
+
+  .hero-left {
+    padding-left: 50px;
+  }
+
+  .hero-head h1 {
+    font-size: 3rem;
+  }
+}
+
+/* css for small tabs li ipad ipadmini etc */
+
+@media screen and (max-width: 920px) {
+  .hero-sec {
+    height: 600px;
+  }
+
+  .hero-head h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-para p {
+    font-size: 18px;
+  }
+}
+
+/* css for smart phones */
+@media screen and (max-width: 550px) {
+  .hero-sec {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    height: 80vh;
+  }
+
+  .hero-right img {
+    padding-top: 25px;
+    height: 300px;
+    width: 300px;
+    margin-left: 40px;
+  }
+
+  .hero-head h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero-para p {
+    font-size: 14px;
+  }
+
+  .hero-btns .btn1 {
+    height: 35px;
+    width: 150px;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .hero-para p {
+    font-size: 12px;
+    padding-right: 20px;
+  }
+
+  .hero-right img {
+    height: 270px;
+    width: 290px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .hero-sec {
+    height: 100%;
+    padding-bottom: 40px;
+  }
+}

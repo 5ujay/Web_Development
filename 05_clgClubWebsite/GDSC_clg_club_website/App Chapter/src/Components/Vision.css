@@ -1,0 +1,11 @@
+@media (max-width: 380px) {
+  .vision {
+    padding-top: 120px;
+  }
+}
+
+@media (max-width: 365px) {
+  .vision {
+    padding-top: 200px;
+  }
+}

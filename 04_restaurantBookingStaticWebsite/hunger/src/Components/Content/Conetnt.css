@@ -1,0 +1,32 @@
+.main-card {
+  background: #f10e0e;
+  color: white;
+  height: 450px;
+  width: 400px;
+}
+
+.main-card > div {
+  font-size: 50px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.main-card p {
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 15px;
+}
+
+.main-card-btn button {
+  height: 40px;
+  width: 100px;
+  background: none;
+  border: 1px solid white;
+  color: white;
+  border-radius: 20px;
+}
+
+.main-card-btn button:hover {
+  background: rgb(250, 138, 138);
+}

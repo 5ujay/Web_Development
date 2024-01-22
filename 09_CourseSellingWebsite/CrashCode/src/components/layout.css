@@ -1,0 +1,69 @@
+.bg-theme {
+  background-color: #335bfc;
+}
+
+.cart-icon {
+  font-size: 2rem;
+}
+
+.hero-background {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-background {
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn-warning {
+  padding: 8px 35px;
+}
+
+/* New Css Code */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+nav {
+  background-color: black;
+}
+
+footer {
+  background-color: black;
+}
+
+.landingPage {
+  background-color: black;
+  height: 90vh;
+}
+
+.ourVision {
+  background-color: white;
+}
+
+.flexRow{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coursesPage, .aboutUsPage {
+  background-color: black;
+}

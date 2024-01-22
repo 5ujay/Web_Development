@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.contact {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-info-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.logo img {
+  height: 60px;
+  width: 120px;
+  cursor: pointer;
+}
+
+.our-info {
+  font-size: 1rem;
+  color: #000;
+  padding-top: 20px;
+}
+
+.social-media {
+  font-size: 2rem;
+  padding-top: 20px;
+  color: #002248;
+  cursor: pointer;
+}
+
+.section-two-head {
+  font-size: 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 15px;
+  color: #002147;
+}
+
+.app-heading {
+  font-size: 1rem;
+  color: #002147;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding-left: 10px;
+}
+
+.app-iamges {
+  margin-top: 10px;
+  display: flex;
+}
+
+.image-one img {
+  height: 150px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.image-two img {
+  height: 150px;
+  width: 250px;
+  cursor: pointer;
+}

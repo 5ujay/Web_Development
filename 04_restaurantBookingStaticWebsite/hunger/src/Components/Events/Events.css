@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.event-heading {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: rgb(89, 85, 85);
+  margin-top: 100px;
+}
+
+.event-sub-heading {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* event slides */
+.event1 {
+  margin-top: 40px;
+  height: 500px;
+}
+.event-img img {
+  border-radius: 0;
+}
+
+.event-name {
+  font-family: cursive;
+  font-size: 20px;
+  text-align: start;
+  padding-left: 10px;
+}
+.event-price {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: green;
+  text-align: start;
+  padding-left: 10px;
+}
+
+.event-description {
+  font-family: cursive;
+  font-size: 15px;
+  text-align: start;
+  padding-left: 10px;
+}
+
+/*imported / copied from swiper */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper2 {
+  display: none;
+}
+
+/* css for small laptops and imini, ipad etc */
+
+@media screen and (max-width: 850px) {
+  .events {
+    margin: 20px;
+  }
+
+  .event-name h2 {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .swiper1 {
+    display: none;
+  }
+
+  .swiper2 {
+    display: contents;
+  }
+
+  .event-info {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .event-description p {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: start;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tv-container {
+  margin-top: 50px;
+  height: 320px;
+  background: rgb(0, 19, 34);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 19, 34, 1) 0%,
+    rgba(4, 135, 243, 1) 100%
+  );
+  color: white;
+}
+
+.tv-head {
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-left: 200px;
+  padding-top: 50px;
+}
+
+.tv-info {
+  font-size: 3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding-left: 200px;
+  padding-top: 20px;
+  font-weight: 600;
+}
+
+.tv-btn {
+  padding-left: 200px;
+  padding-top: 25px;
+}
+
+.tv-btn button {
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+  background-color: white;
+  color: #0487f3;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: navajowhite;
+}
+
+.tv-btn button:hover {
+  background: rgb(0, 19, 34);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 19, 34, 1) 0%,
+    rgba(4, 135, 243, 1) 100%
+  );
+  color: white;
+}

@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.appinfo-head {
+  padding-top: 50px;
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #5c7189;
+  padding-left: 100px;
+}
+/* card subheading  */
+.appinfo-subhead {
+  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  padding: 20px;
+}
+.appinfo-subhead .a-one {
+  padding-left: 80px;
+  color: #000;
+}
+
+.appinfo-subhead .a-two {
+  color: #0487f3;
+  padding-left: 80px;
+}
+.blank-subhead-appinfo {
+  height: 15px;
+  width: 400px;
+  background: #c3e2fc;
+  margin-left: 100px;
+  margin-top: -40px;
+}
+
+/* app info content editing */
+
+.appinfo-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.appinfo-deatils ul {
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+
+.appinfo-app {
+  color: #5c7189;
+  margin-top: 10px;
+}
+
+.app-detail {
+  display: flex;
+  gap: 1rem;
+  margin-top: 20px;
+}
+.app-img img {
+  height: 500px;
+  width: 500px;
+}

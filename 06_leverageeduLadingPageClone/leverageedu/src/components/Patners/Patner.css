@@ -1,0 +1,88 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #f5fafe;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  object-fit: cover;
+}
+
+/* images */
+
+.patner-one-silde {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px 150px 150px;
+  gap: 2rem;
+}
+
+/* editing self */
+.patners {
+  background: #f5fafe;
+}
+
+.patners-head {
+  padding-top: 50px;
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #5c7189;
+  padding-left: 100px;
+}
+/* card subheading  */
+.patners-subhead {
+  display: flex;
+  gap: 1rem;
+  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  padding: 20px;
+}
+.patners-subhead .p-one {
+  padding-left: 80px;
+  color: #0487f3;
+}
+
+.patners-subhead .p-two {
+  color: #000;
+}
+
+.patners-info {
+  text-align: center;
+  font-size: 16px;
+  padding-top: 20px;
+  color: grey;
+}
+.patners-btn {
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.patners-btn button {
+  height: 40px;
+  width: 200px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+  border: 1px solid #0487f3;
+  color: #0487f3;
+  background: none;
+  cursor: pointer;
+}
+
+.patners-btn button:hover {
+  background: #002147;
+  color: white;
+  border: white;
+}

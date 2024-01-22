@@ -1,0 +1,217 @@
+.heading {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+}
+
+/* items lists */
+
+.head-items {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 1rem; */
+}
+
+.item p {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  width: 200px;
+  text-align: center;
+}
+
+/* making card section */
+#black {
+  background-color: black;
+  border: none;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+#gray {
+  background-color: gray;
+  color: gray;
+  border: none;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+#white {
+  background-color: white;
+  color: white;
+  border: none;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+#red {
+  background-color: red;
+  color: red;
+  border: none;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+#gb {
+  width: 60px;
+  height: 30px;
+  border: 1.5px solid black;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.rs {
+  font-size: 20px;
+}
+.buynow {
+  width: 150px;
+  height: 30px;
+  font-size: 1em;
+  font-weight: 700;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  margin-top: 30px;
+}
+.buynow:hover {
+  background-color: white;
+  color: black;
+}
+
+/* card css */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.content {
+  width: 20%;
+  height: 400px;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  transition: 0.4s;
+  background-color: #eceff4;
+  text-align: center;
+}
+.content:hover {
+  transform: translate(0px, -8px);
+}
+.img {
+  width: 150px;
+  height: 170px;
+  margin-top: 10px;
+}
+p {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.color-btns {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.price {
+  margin-top: 10px;
+}
+/* responsive css */
+
+@media screen and (max-width: 830px) {
+  .heading {
+    margin-top: 80px;
+  }
+  .head-items {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    overflow: auto;
+    width: 100%;
+    position: relative;
+    scroll-behavior: smooth;
+    gap: 1rem;
+    height: 50px;
+  }
+
+  .item {
+    width: 120px;
+  }
+
+  .item p {
+    cursor: pointer;
+    font-size: 10px;
+  }
+  .gallery {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .content {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .content {
+    width: 300px;
+  }
+  .heading {
+    margin-top: 130px;
+  }
+}
+
+/* @media screen and (max-width: 550px) {
+  .gallery {
+    display: grid;
+    grid-template-columns: 230px 230px;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .content {
+    width: 230px;
+  }
+} */
+
+@media screen and (max-width: 280px) {
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .content {
+    width: 250px;
+  }
+}

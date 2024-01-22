@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.head {
+  font-size: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.why_cards {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  overflow-x: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.whycard {
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 20px;
+  height: 150px;
+}
+.head_text {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 1rem;
+  font-size: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head_para {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+@media screen and (max-width: 1000) {
+  .why_cards {
+    width: 80%;
+  }
+  .whycard {
+    height: 100px;
+    width: 100px;
+  }
+}

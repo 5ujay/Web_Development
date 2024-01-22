@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-line {
+  background-color: #f7f7f7;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7e7e7e;
+  font-family: sans-serif;
+}
+.nav-line p a {
+  color: #356fd3;
+}
+
+.rs {
+  font-size: 10px;
+}
+
+/* responsive flex box */
+
+@media screen and (max-width: 400px) {
+  .nav-line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    font-family: sans-serif;
+  }
+  .nav-line p a {
+    font-size: 12px;
+    color: #356fd3;
+  }
+}
